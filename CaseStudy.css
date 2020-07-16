@@ -1,0 +1,506 @@
+body {
+    width: 100%;
+}
+.main {
+    font-family: 'Montserrat', sans-serif;
+    width: 44.5rem;
+    margin: 0 auto;
+    color: #3a3a3a;
+}
+.date {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 0;
+}
+h1 {
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 3rem;
+    margin-top: 0;
+}
+h2 {
+    width: 100%;
+    font-weight: 300;
+    line-height: 2rem;
+}
+p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+hr {
+    margin-left: 49%;
+    width: 23%;
+    border: 4px solid #ff7800;
+    display: none;
+}
+header {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #3a3a3a;
+    height: 8rem;
+}
+.header-image {
+    position: relative;
+    left: 40%;
+    margin: 2.4rem 0.6rem;
+    width: 18rem;
+    height: 3.4rem;
+}
+.author-image {
+    width: 2.8rem;
+    height: 2.8rem;
+    float: left;
+    margin-right: 0.75rem;
+}
+.editor-name {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.editor-text {
+    color: #cccccc;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.image-format {
+    width: 100%;
+    margin-top: 0.6rem;
+    height: 31.25rem;
+}
+.container {
+    position: relative;
+}
+.text-block {
+    width: 98.3%;
+    height: 1.56rem;
+    bottom: -2.18rem;
+    font-size: medium;
+    position: absolute;
+    background-color: #3a3a3a;
+    color: #cccccc;
+    padding: 11px 5px 3px 8px;
+}
+.text-blockOne {
+    width: 98.3%;
+    height: 1.56rem;
+    bottom: -2.18rem;
+    font-size: medium;
+    position: absolute;
+    background-color: #3a3a3a;
+    color: #cccccc;
+    padding: 11px 5px 3px 8px;
+}
+.division-alignment {
+    margin-top: 4.06rem;
+}
+.advertisement-box {
+    height: 27.5rem;
+    border: 1px solid #cccccc;
+}
+.advertisement-text {
+    margin: 2px 0 1px -10px;
+    text-align: right;
+    color: #cccccc;
+}
+.advertisement-image-format {
+    border: 1px solid #cccccc;
+    width: 99.9%;
+    margin-top: 0;
+    height: 12.5rem;
+}
+.inside-advertisement {
+    margin: 0.62rem 0 0.62rem 0;
+    padding-left: 0.62rem;
+}
+.inside-advertisementOne {
+    margin-left: 0.62rem;
+    display: block;
+}
+.registration-button {
+    margin: 0.62rem;
+    width: 97%;
+    color: white;
+    background-color: #ff7800;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.align-text {
+    margin-bottom: 4.06rem;
+}
+.parent {
+    position: relative;
+}
+.image1 {
+    position: relative;
+    width: 100%;
+    height: 23.12rem;
+}
+.text-on-image {
+    width: 98.3%;
+    height: 1.87rem;
+    top: -2.18rem;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    position: absolute;
+    background-color: #3a3a3a;
+    color: #cccccc;
+    padding: 11px 5px 3px 8px;  
+}
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #cccccc;
+}
+.form-button {
+    margin: 0.62rem;
+    width: 97%;
+    color: #3a3a3a;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.check-image {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.check-options {
+    font-weight: 300;
+    line-height: 2rem;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cccccc;
+    width:98%;
+    padding: 0.62rem;
+    margin: 0 auto;
+    height: auto;
+}
+.footer-content {
+    margin-left: 23%;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+.footer-button {
+    width: 53%;
+    margin: 0.9rem 23% 1.87rem 23%;
+    color: white;
+    background-color: #ff7800;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.4rem;
+        width: 100%;
+        margin-left: 13%;
+        top: 48rem;
+    }
+    p {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+    .editor-name, .date{
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin: 35px 0 0 97px;
+    }
+    footer {
+        width: 750px;
+    }
+    header {
+        width: 761px;
+    }
+    .header-image {
+        margin-left: -80px;
+    }
+    .footer-content {
+        margin-left: 0;
+    }
+    .registration-button {
+        font-size: xx-large;
+        margin: 20px 0.62rem 20px 0.62rem;
+    }
+    .footer-button {
+        font-size: xx-large;
+        width: 100% !important;
+        margin: 20px 0 20px 0;
+        float: right;
+    }
+    .text-block, .text-on-image, .image-text, .text-blockOne {
+        height: 2.4rem;
+        font-size: x-large;
+    }
+    .image-text {
+        top: 30%;
+    }
+    .image-format {
+        height: 10%;
+        margin-top: 35px;
+        position: relative;
+        width: 762px;
+    }
+    .heading-one, .move, h2, hr, .date {
+        position: absolute;
+        text-align: center;
+    }
+    footer {
+        position: absolute;
+        top: 282rem;
+    }
+    .move {
+        margin-left: 180px;
+        top: 65rem;
+    }
+    .author-image, .editor-text {
+        display: none;
+    }
+    h2 {
+        margin-left: 62px;
+        top: 57rem;
+    }
+    hr{
+        display: block;
+        top: 64rem;
+    }
+    .date {
+        margin: 5px 0 0 55px;
+        top: 68rem;
+        font-weight: 700;
+    }
+    .text-block {
+        width: 105.3%;
+    }
+    #division-move {
+        width: 762px;
+        margin-top: -35px;
+        position: absolute;
+        top: 70rem;
+    }
+    #strong-text {
+        font-weight: 800;
+    }
+    .advertisement-text {
+        text-align: center;
+    }
+    .advertisement-box {
+        background-color: #3a3a3a;
+        height: 29.5rem;
+    }
+    .inside-advertisementOne {
+        display: none;
+    }
+    .inside-advertisement {
+        height: 6rem;
+        width: 46rem;
+        background-color: #3a3a3a;
+        color: #cccccc;
+    }
+    .check-options {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+@media only screen and (max-width: 550px) and (min-width: 320px) {
+    h1 {
+        font-size: 3.4rem;
+        width: 600px;
+        margin-left: 15%;
+        top: 52rem;
+        line-height: 4rem;
+    }
+    p {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .editor-name, .date{
+        font-size: 2.2rem;
+        font-weight: 800;
+        margin: 35px 0 0 55px;
+    }
+    footer {
+        width: 750px;
+        position: absolute;
+        top: 511rem;
+    }
+    header {
+        width: 761px;
+    }
+    .header-image {
+        margin-left: -80px;
+    }
+    .footer-content {
+        margin-left: 0;
+    }
+    .registration-button {
+        height: 5rem;
+        position: absolute;
+        top: 35rem;
+        font-size: xx-large;
+        margin: 20px 0.62rem 20px 0.62rem;
+    }
+    .footer-button {
+        height: 5rem;
+        font-size: xx-large;
+        width: 100% !important;
+        margin: 20px 0 20px 0;
+        float: right;
+    }
+    .text-block, .text-on-image, .image-text, .text-blockOne {
+        bottom: -7rem;
+        height: 6.4rem;
+        font-size: 37px;
+    }
+    #move-span {
+        bottom: -4rem;
+        height: 3.5rem;
+    }
+    .image1 {
+        height:38rem;
+    }
+    .image-format {
+        height: 10%;
+        margin-top: 35px;
+        position: relative;
+        width: 762px;
+    }
+    .heading-one, .move, h2, hr, .date {
+        position: absolute;
+        text-align: center;
+    }
+    .move {
+        width: 413px;
+        font-size: xx-large;
+        margin-left: 120px;
+        top: 86rem;
+    }
+    .author-image, .editor-text {
+        display: none;
+    }
+    h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-left: 165px;
+        top: 69rem;
+    }
+    hr{
+        margin-left: 70%;
+        display: block;
+        top: 85rem;
+    }
+    .date {
+        font-size: xx-large;
+        margin: 5px 0 0 120px;
+        top: 91rem;
+        font-weight: 700;
+    }
+    .text-block {
+        width: 105.3%;
+    }
+    #division-move {
+        width: 762px;
+        margin-top: -35px;
+        position: absolute;
+        top: 90rem;
+    }
+    .division-alignment {
+        margin-top: 11.06rem;
+    }
+    #strong-text {
+        font-weight: 800;
+    }
+    .advertisement-text {
+        text-align: center;
+    }
+    .advertisement-box {
+        position: relative;
+        background-color: #3a3a3a;
+        height: 35.5rem;
+    }
+    .inside-advertisementOne {
+        display: none;
+    }
+    .inside-advertisement {
+        position: absolute;
+        height: 24rem;
+        margin-top: 2rem;
+        width: 47rem;
+        color: #cccccc;
+    }
+    .align-text {
+        margin: 10rem 0 4rem 0;
+    }
+    .check-options {
+        font-size: 2.5rem;
+        line-height: 3.3rem;
+    }
+    .check-image {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+}
+
+/* Click on Button-- Opens Modal*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
